@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    background: #f7f5f0;
+    background-image: url("Kitchen2.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 40px;
+    line-height: 1.5;
+    min-height: 450px;
+    margin: 30px 300px 30px 300px;
+}
+
+
+header .profile-image {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 255, 255, 0.596);
+    transition: all .5s;
+}
+
+header .profile-image:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.main-nav {
+    width: 100%;
+    background: rgb(34, 240, 240);
+    top: 0;
+    
+    position: fixed;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav .name {
+    display: none;
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+    transition: all .5s;
+    color: rgb(150, 15, 155);
+}
+
+.nav a:hover {
+    color: rgb(157, 128, 233);
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+
+header .tag-name {
+    background-color: white;
+    padding: 10px;
+    margin: 4px;
+}
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+}
+
+.card:hover {
+    border-color: #ff99ff;
+}
+
+div.cartoon {
+    position: absolute;
+    right: 150px;
+    top: 550px;
+    
+}
+
+.links li {
+    border-radius: 8px;
+    display: inline-block;
+    background: aqua;
+    color: lime;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+ul.links {
+    padding: 0;
+    text-align: center;
+}
+
+.links li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #ff9904;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.links li:nth-child(odd) {
+    background: #0399ff;
+}
+
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+    top: -8px;
+    margin-right: 20px;
+    font-size: .75em;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .25s;
+    color: red;
+}
