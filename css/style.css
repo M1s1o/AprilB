@@ -100,13 +100,6 @@ header .tag-name {
     border-color: #ff99ff;
 }
 
-div.cartoon {
-    position: absolute;
-    right: 150px;
-    top: 550px;
-    
-}
-
 .links li {
     border-radius: 8px;
     display: inline-block;
